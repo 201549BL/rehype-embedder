@@ -21,6 +21,6 @@ const processMarkdown = (input) => {
 
 const { value } = await processMarkdown(markdown);
 
-fs.writeFile("./index.html", value, { encoding: "utf-8" }, () => {
+fs.writeFile("./example.html", value, { encoding: "utf-8" }, () => {
   console.log("all done");
 });

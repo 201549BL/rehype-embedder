@@ -1,16 +1,12 @@
 # Hello World
 
-## Table of Content
-
-## Install
-
-A **example**.
+An **example**.
 
 ## Use
 
 More `text`.
 
-## License
+## Links
 
 <!-- Link below has embed as a text value. This tells the embedder that the link should be an iframe -->
 
@@ -19,5 +15,7 @@ More `text`.
 <!-- Link below dont have embed as text value. Therefore it is treated as a regular link. -->
 
 [A regular link](https://www.youtube.com/watch?v=SzmUde_EK5Y)
+
+## License
 
 MIT
