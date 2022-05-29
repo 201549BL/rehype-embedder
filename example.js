@@ -6,8 +6,10 @@ import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 
 import { embedder } from "./rehype-embedder/attacher.js";
-import { youtubeEmbedder } from "./rehype-embedder/extensions/youtubeEmbedder.js ";
-import { codepenEmbedder } from "./rehype-embedder/extensions/codepenEmbedder.js";
+import {
+  youtubeEmbedder,
+  codepenEmbedder,
+} from "./rehype-embedder/extensions/index.js";
 
 const markdown = fs.readFileSync("./markdownExample.md", { encoding: "utf-8" });
 

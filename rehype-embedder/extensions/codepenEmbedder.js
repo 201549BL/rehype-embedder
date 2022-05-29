@@ -1,19 +1,9 @@
-import { Console } from "console";
-
 export function codepenEmbedder() {
   const name = "codepen";
 
   const check = ({ properties }) => {
     return String(properties.href).includes(name) ? true : false;
   };
-
-  {
-    /* <iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/possiblyBen/embed/PoQYYZQ?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/possiblyBen/pen/PoQYYZQ">
-  Untitled</a> by EB (<a href="https://codepen.io/possiblyBen">@possiblyBen</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe> */
-  }
 
   const transform = (node) => {
     node.tagName = "iframe";
