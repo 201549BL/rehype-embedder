@@ -6,4 +6,8 @@ This is a plugin for [rehype](https://github.com/rehypejs/rehype). The plugin pa
 
 ## When should I use it?
 
-The extensions can be customized to your liking and you can add as many as you'd like. It is simple to build a new extension then add it as an options argument to the attacher. I've made an example extension that adds youtube embeds, feel free to use this as a base when making your own extensions.
+It's simple to build a new extension then add it as an options argument to the attacher. The extensions can be customized however you like. I've made an example extension that adds youtube embeds as iframes, feel free to use this as a base when making your own extensions.
+
+## Licence
+
+MIT

@@ -1,16 +1,15 @@
 {
-  "name": "blog-mockup",
+  "name": "rehype-embedder",
   "version": "1.0.0",
   "description": "",
   "main": "example.js",
   "type": "module",
   "scripts": {
-    "start": "node example.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node example.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Eirik Bjørndal",
+  "license": "MIT",
   "dependencies": {
     "rehype-stringify": "^9.0.3",
     "remark-parse": "^10.0.1",
