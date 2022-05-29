@@ -1,6 +1,5 @@
 export function youtubeEmbedder() {
   const name = "youtube";
-  j;
 
   const check = ({ properties }) => {
     return String(properties.href).includes(name) ? true : false;
