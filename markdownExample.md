@@ -12,6 +12,8 @@ More `text`.
 
 [embed](https://www.youtube.com/watch?v=c5V-qL1HRho)
 
+[embed](https://codepen.io/possiblyBen/pen/PoQYYZQ)
+
 <!-- Link below dont have embed as text value. Therefore it is treated as a regular link. -->
 
 [A regular link](https://www.youtube.com/watch?v=SzmUde_EK5Y)
